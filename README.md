@@ -1,6 +1,6 @@
-# wiseweb
+# orbit
 
-> Website for WiseWeb
+> Website for orbit
 
 ## Build Setup
 

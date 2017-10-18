@@ -4,7 +4,7 @@
       <h1>Out of this world digital agency.</h1>
     </div>
     <div class="spaceman">
-      <img src="../assets/spaceman.png" width="120px" />
+      <img src="../assets/spaceman.png" width="100px" />
     </div>
   </section>
 </template>
@@ -45,8 +45,7 @@
     h1 {
       color:white;
       font-size:3em;
-      letter-spacing: 2px;
-      font-weight:lighter;
+      letter-spacing:0.1em;
     }
   }
   .spaceman {
@@ -55,6 +54,11 @@
     left:-10vw;
     animation: spaceman-slide 200s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     will-change: transform;
+    &:before {
+      content:"";
+      position:relative
+
+    }
   }
 
 
